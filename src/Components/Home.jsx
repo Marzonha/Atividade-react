@@ -1,6 +1,6 @@
 import {HomeContent} from './HomeContent';
 
-
+ 
 function Home(props) {
     return (
       <div>
@@ -8,7 +8,7 @@ function Home(props) {
         <p>{props.paginaPrincipal}</p>
 
         <HomeContent />
-        
+
       </div>
     )
   }

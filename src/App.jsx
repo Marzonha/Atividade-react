@@ -8,7 +8,7 @@ import  Mission  from "./Components/Mission"
 import  Product  from "./Components/Product"
 import  History  from './Components/History'
 import  Contact  from "./Components/Contact"
-import Footer from "./Components/Footer"
+import  Footer   from "./Components/Footer"
 
 // Importação do css do App 
 

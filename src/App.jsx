@@ -1,15 +1,19 @@
 import { Routes, Route } from "react-router-dom"
 
-import  {Header}   from "./Components/Header"
-import  Home     from './Components/Home'
+// Componentenes 
+
+import  {Header} from "./Components/Header"
+import    Home   from './Components/Home'
 import  Mission  from "./Components/Mission"
 import  Product  from "./Components/Product"
-import  History from './Components/History'
+import  History  from './Components/History'
 import  Contact  from "./Components/Contact"
+import Footer from "./Components/Footer"
 
+// Importação do css do App 
 
 import './App.css'
-import Footer from "./Components/Footer"
+
 
 
 function App() {
@@ -17,6 +21,7 @@ function App() {
   return (
     <>
     <div>
+
       <Header/>
 
       <Routes>
@@ -50,6 +55,7 @@ function App() {
 
 
      <Footer  anoProducao='@2024'/>
+
     </div>
     </>
 

@@ -1,8 +1,9 @@
 
- function Mission() {
+ function Mission(props) {
   return (
     <div>
-        <h1>Página Missão</h1>
+        <h1>{props.nomePagina}</h1>
+        <p>{props.paginaPrincipal}</p>
     </div>
   )
 }

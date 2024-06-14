@@ -8,7 +8,7 @@ function Home(props) {
         <p>{props.paginaPrincipal}</p>
 
         <HomeContent />
-
+ 
       </div>
     )
   }

@@ -33,7 +33,44 @@ export function ProductContent() {
 
      {/* Produtos Cards */}
 
-
+     <div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card h-100">
+      <img className={styles.CardPimg} src="..." class="card-img-top" alt="..."/>
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img className={styles.CardPimg} src="https://images.unsplash.com/photo-1516849677043-ef67c9557e16?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEwfHx8ZW58MHx8fHx8" class="card-img-top" alt="..."/>
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a short card.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img className={styles.CardPimg} src="https://media.istockphoto.com/id/1338031708/pt/foto/engineer-and-technician-working-on-satellite-construction-aerospace-agency-diverse-team-of.jpg?s=1024x1024&w=is&k=20&c=v11UJDNGMQ2VpEyiRH6v9tnbvTj5uBkp1nYdmYpMIMg=" class="card-img-top" alt="..."/>
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img className={styles.CardPimg} src="https://media.istockphoto.com/id/172770317/pt/foto/voo-em-manuten%C3%A7%C3%A3o.jpg?s=1024x1024&w=is&k=20&c=PsQoA7mnRM85xZozMwGafVIROsbiptDb5BKMsd8Jlvg=" class="card-img-top" alt="..."/>
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+</div>
 
      {/* Produtos Cards */}
     </div>  

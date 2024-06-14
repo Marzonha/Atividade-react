@@ -11,7 +11,7 @@ import {
   Button,
 } from "@chakra-ui/react";
 
-export function Contato() {
+ function Contact() {
   return (
     // <h1>Contato</h1>
 
@@ -113,3 +113,4 @@ export function Contato() {
     </Box>
   );
 }
+export default Contact

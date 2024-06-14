@@ -8,11 +8,9 @@ export  function MissionContent() {
     <p className={styles.pMission}>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni dignissimos assumenda commodi debitis, odit error laudantium doloremque numquam ullam rerum dolorum voluptatum accusamus. Pariatur consectetur, doloremque impedit harum voluptatibus sint.</p>
 
  {/* Add a primeira imagem, provavelmente com o tipo de carregamento lento */}
-     <div className={styles.Mimg}>
-
-     <img  src="https://media.istockphoto.com/id/2147552556/pt/foto/alien-planet-with-hot-magma-and-asteroids-4k.jpg?s=2048x2048&w=is&k=20&c=KtuMaqk8r3AlokSXlFYSJTIyxR5sowfkySFIifjSoew=" alt="" />
-
-     </div>
+   <div>
+     <img className={styles.Mimg} src="https://media.istockphoto.com/id/2147552556/pt/foto/alien-planet-with-hot-magma-and-asteroids-4k.jpg?s=2048x2048&w=is&k=20&c=KtuMaqk8r3AlokSXlFYSJTIyxR5sowfkySFIifjSoew=" alt="" />
+    </div>
   </div>
   )
 }

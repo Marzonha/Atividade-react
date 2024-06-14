@@ -1,4 +1,4 @@
-.titleHomeContent{
+.titleMissionContent{
     font-size: 1rem;
     background-color: rgb(21, 72, 119);
     color: rgb(255, 255, 255);
@@ -19,7 +19,7 @@
 
 }
 
-.img{
+.Mimg{
     display: inline-flex;
     align-items: center;
     margin-top: 90px;

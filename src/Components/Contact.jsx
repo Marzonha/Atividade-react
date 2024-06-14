@@ -27,14 +27,14 @@ export  function Contact() {
           w="100%"
           bg="white"
           top={90}
-          borderRadius={5}
+          borderRadius={34}
           p="2"
           boxShadow={"0 1px 2px #ccc"}
           
         >
-          <FormControl display='flex' flexDir='column' gap='4' mt={5}>
+          <FormControl display='flex' flexDir='column' gap='60' mt={25}>
 
-            <HStack spacing='5'>
+            <HStack spacing='50'>
               <Box w='100%'>
                 <FormLabel>Nome Completo</FormLabel>
                 <Input id='nome' placeholder='Nome Completo' />
@@ -45,7 +45,7 @@ export  function Contact() {
               </Box>            
             </HStack>
 
-            <HStack spacing='5'>
+            <HStack spacing='50'>
               <Box w='100%'>
                 <FormLabel>Data Nascimento</FormLabel>
                 <Input id='nasc' placeholder='Data de Nascimento' />
@@ -56,7 +56,7 @@ export  function Contact() {
               </Box>
             </HStack>
 
-            <HStack spacing='5'>
+            <HStack spacing='50'>
               <Box w='100%'>
                 <FormLabel>Celular</FormLabel>
                 <Input id='cel' type="number" placeholder='Celular' />
@@ -67,7 +67,7 @@ export  function Contact() {
               </Box>
             </HStack>
 
-            <HStack spacing='5'>
+            <HStack spacing='50'>
               <Box w='100%'>
                 <FormLabel>Endereço</FormLabel>
                 <Input id='endereco' placeholder='Endereço' />
@@ -78,7 +78,7 @@ export  function Contact() {
               </Box>
             </HStack>
 
-            <HStack spacing='5'>
+            <HStack spacing='50'>
               <Box w='100%'>
                 <FormLabel>Sexo</FormLabel>
                 <RadioGroup>

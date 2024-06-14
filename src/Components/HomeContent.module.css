@@ -4,4 +4,16 @@
     color: rgb(255, 255, 255);
     border-radius: 30px;
     font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 700px;  
+    text-align: center;
+ 
+}
+
+.timg{
+    display: inline-flex;
+    align-items: center;
+    margin-top: 90px;
+    margin-bottom: 40px;
+    width: 300px;
+    height: 300px;
 }

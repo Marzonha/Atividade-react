@@ -1,8 +1,14 @@
 .titleHomeContent{
     font-size: 1rem;
-    background-color: rgb(21, 72, 119);
+
+    background: linear-gradient(135deg,rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1 ));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow:0 8px 32px 0 rgba(255, 255, 255, 0.37) ;
+
     color: rgb(255, 255, 255);
-    border-radius: 30px;
     font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     height: 100vh;  
     text-align: center;

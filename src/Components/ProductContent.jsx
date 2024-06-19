@@ -8,6 +8,7 @@ export function ProductContent() {
 
 
     <h1 className={styles.TP} >Produtos Usados</h1>
+   
     <div>
     <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
